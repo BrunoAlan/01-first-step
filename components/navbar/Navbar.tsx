@@ -8,7 +8,7 @@
 
 import { HomeIcon } from '@primer/octicons-react';
 import Link from 'next/link';
-import { ActiveLink } from '../active-link/ActiveLink';
+import { ActiveLink } from '@/components';
 
 const navItems = [
     { label: 'About', href: '/about' },
